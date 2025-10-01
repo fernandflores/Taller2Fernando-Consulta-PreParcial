@@ -30,16 +30,6 @@ public class Conductores
     public List<Calificacion> Calificaciones { get => calificaciones; set => calificaciones = value; }
     
 
-    public float ObtenerPromedio(Conductores conductor)
-    {
-        int nota=0;
-        foreach (var item in conductor.Calificaciones)
-        {
-            nota+=item.Puntuacion;
-        }
-        float promedio= nota/conductor.Calificaciones.Count();
-        return promedio;
-    }
     
 }
 
