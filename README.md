@@ -1,7 +1,7 @@
 # Taller2Fernando
 en esta clase vemos el uso de API desde 0
 teniendo en cuenta:
--archivo .json de conductores: tiene una lista de conductores (simula una bd)
+- archivo .json de conductores: tiene una lista de conductores (simula una bd)
 - en los endpoints post, put y delete se guarda el archivo .json con el fin de actualizar los datos
 - en cada endpoint al cual se le solicita un id o algun parametro que requiera una condicion, validamos los datos retornando su respectivo error en caso de que los mismos no cumplan la condicion
 - en la carpeta 'Services' se encuentran los archivos de lectura y guardado de archivos junto a su interface
